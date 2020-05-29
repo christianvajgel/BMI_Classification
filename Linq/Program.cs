@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Linq
 {
@@ -27,7 +26,6 @@ namespace Linq
                 new Person() { Weight = RandomInt(minWeight, maxWeight), Height = RandomDouble(minHeight, maxHeight), State = "SC"},
                 new Person() { Weight = RandomInt(minWeight, maxWeight), Height = RandomDouble(minHeight, maxHeight), State = "DF"},
                 new Person() { Weight = RandomInt(minWeight, maxWeight), Height = RandomDouble(minHeight, maxHeight), State = "RJ"},
-                new Person() { Weight = 81, Height = 1.83},
             };
 
             var Result = (from x in People
